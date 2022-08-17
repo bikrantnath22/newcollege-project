@@ -1,0 +1,55 @@
+.cart{
+    position: relative;
+    border: 1px solid #ccc;
+    transform: scaleY(0.95);
+}
+.amount{
+    position: relative;
+    
+    
+    font-size: 20px;
+    
+    color: #000;
+
+}
+.amount span{
+    color: crimson;
+    padding: 0 20px;
+}
+.amount button{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #777;
+}
+.delete{
+    position: absolute;
+    top:0;
+    right: 5px;
+    color: crimson;
+    font-weight: 900;
+    cursor: pointer;
+}
+.total{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+   
+    
+}
+.total h3{
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+    
+    
+}
+
+#addplus:disabled,
+#addplus[disabled] {
+    background-color: #c7c7c7;
+    color: #ffffff;
+    cursor: not-allowed;
+}
+    
+
+

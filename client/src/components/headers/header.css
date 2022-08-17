@@ -1,0 +1,65 @@
+header {
+  min-height: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: transparent;
+
+  box-shadow: rgb(179, 179, 179) 0px 1px 2px;
+
+  /* background-color: rgb(155, 169, 195); */
+
+  /* opacity: 0.3; */
+  /* background-color: transparent; */
+}
+
+header .logo {
+  flex: 1;
+  margin-left: 20px;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+header a {
+ 
+  /* color: rgb(22, 21, 21); */
+  color: #585858;
+  text-decoration: none;
+  font-weight: bold;
+    
+}
+header ul li {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 0 20px;
+  color: #585858;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.menu {
+  display: none;
+}
+.cart-icon {
+  
+  position: relative;
+  margin-top: 8px;
+  margin-right: 20px;
+}
+/* .cart-icon span{
+    background-color: crimson;
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 7px;
+    font-size: 10px;
+
+} */
