@@ -30,7 +30,7 @@ app.use('/api', require('./routes/productRouter'))
 app.use('/api', require('./routes/paymentRouter'))
 // app.use('/api',require('./routes/roomRouter'))
 
-const URI = "mongodb+srv://booking:booking@cluster1.hbjny.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+const URI = ""
 mongoose.connect(URI, {
     useCreateIndex: true,
     useFindAndModify: false,
